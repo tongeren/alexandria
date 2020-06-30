@@ -25,8 +25,12 @@ const imagePath = (name) => images(name, true)
 // External imports
 import "bootstrap";
 
+// stylesheets
+require("../stylesheets/main.scss");
+
 // Internal imports, e.g:
 // import { initSelect2 } from '../components/init_select2';
+import rellax from '../components/rellax';
 
 document.addEventListener('turbolinks:load', () => {
   // Call your functions here, e.g:

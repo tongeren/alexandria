@@ -1,5 +1,49 @@
-.banner {
-    background-image: url('../../images/alexandria-banner.png'); 
+html, body {
+    width: 100%;
+    height: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	height:100%;
+	padding:0;
+	margin:0;
+	overflow-x:hidden;
+	position: relative;
+}
+
+.logo-alexandria {
+	margin: 100px 0 40px 0;
+}
+.logo-alexandria img{
+	width: 300px;
+	height: 300px
+}
+.landing-alexandria h1{
+	font-size: 56px;
+	font-weight: 300;
+	color: #fff;
+	margin: 30px 0 30px 0;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+.banner-alexandria {
+    background-image: url('../images/alexandria-banner.png'); 
     height: 100%; 
     background-attachment: fixed; 
+}
+
+.fullscreen {
+    width:100%;
+    min-height:100%;
+	background-repeat:no-repeat;
+    background-position:50% 50%;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
