@@ -5,20 +5,23 @@ html, body {
 }
 
 body {
-	height:100%;
-	padding:0;
-	margin:0;
-	overflow-x:hidden;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	color: $gray-700;
+	overflow-x: hidden;
 	position: relative;
 }
 
 .logo-alexandria {
 	margin: 100px 0 40px 0;
 }
+
 .logo-alexandria img{
-	width: 300px;
-	height: 300px
+	width: 10rem;
+	height: 10rem;
 }
+
 .landing-alexandria h1{
 	font-size: 56px;
 	font-weight: 300;
@@ -29,7 +32,7 @@ body {
 
 .banner-alexandria {
     background-image: url('../images/alexandria-banner.png'); 
-    height: 100%; 
+	height: 100%; 
     background-attachment: fixed; 
 }
 
@@ -46,4 +49,13 @@ body {
     width: 100%;
     height: 100%;
     display: block;
+}
+
+.cta-alexandria {
+	
+}
+
+.tagline-alexandria {
+	color: #fff;
+	margin-bottom: 2rem;
 }

@@ -5,21 +5,24 @@
                 <div class="col-md-12 text-center">
 
                     <div class="logo-alexandria" style="">
-                        Logo
+                        <%= image_tag "https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png", alt:"Logo" %>
                     </div>
 
-                    <h1 class="">
+                    <h1 class="cta-alexandria">
                         Alexandria
                     </h1>
 
-                    <div class="">
+                    <div class="tagline-alexandria">
                         <div>
-                            Your Own Library Anywhere
+                            Take Your Own Library Anywhere
                         </div>
                     </div>
 
-                    <button type="button" class="btn btn-primary" data-toggle="tooltip">Sign Up</button>
-                    
+                    <%= link_to "Sign Up", 
+                        { controller: "users/registrations", 
+                        action: "new" }, 
+                        class: "action-button-alexandria btn btn-primary" 
+                    %>
                 </div>
             </div>
         </div>

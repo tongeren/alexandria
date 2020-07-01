@@ -2,8 +2,13 @@ Rails.application.routes.draw do
   # Generate all needed rootes from specified modules in User model
   # Override routes for generated controllers
   devise_for :users, controllers: {
+    registrations: 'users/registrations',
     sessions: 'users/sessions'
   }
+
+  devise_scope :user do
+    post 'sign-up', to: 'home#sign_up'
+  end
 
   root to: 'pages#home'
 
