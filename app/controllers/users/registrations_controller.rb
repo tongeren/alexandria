@@ -7,16 +7,16 @@ class Users::RegistrationsController < Devise::RegistrationsController
   # 
   # Prefix                Verb   URI Pattern               Controller#Action
   # new_user_registration GET    /users/sign_up(.:format)  devise/registrations#new
-  def new
-    super
-  end
+  # def new
+  #   super
+  # end
 
   # POST /resource
   # Prefix                Verb   URI Pattern               Controller#Action
   #                       POST   /users(.:format)          devise/registrations#create
-  def create
-    super
-  end
+  # def create
+  #   super
+  # end
 
   # GET /resource/edit
   # def edit

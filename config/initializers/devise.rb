@@ -312,7 +312,7 @@ Devise.setup do |config|
 
   # ==> Configuration for :campaignable
 	config.campaignable_vendor = :mailchimp
-	config.campaignable_api_key = 'your_service_api_key'
-	config.campaignable_list_id = 'the_id_of_the_list_to_which_we_subscribe'
+	config.campaignable_api_key = Rails.application.credentials.mailchimp[:api_key]
+	config.campaignable_list_id = Rails.application.credentials.mailchimp[:audience_id]
 	config.campaignable_additional_fields = [:array, :of, :additional, :fields]
 end
