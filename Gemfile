@@ -32,6 +32,7 @@ gem 'devise'
 # Devise-campaignable adds mailchimp subscription to devise. Read more https://github.com/sorry-app/devise_campaignable
 gem 'devise_campaignable'
 
+
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass'
 gem 'simple_form'

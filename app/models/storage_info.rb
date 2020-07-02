@@ -1,0 +1,2 @@
+class StorageInfo < ApplicationRecord
+end
